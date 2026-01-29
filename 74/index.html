@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>佐賀バルーナーズ日記</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <div class="card" id="card">
+        <h1>⛹️‍♀️佐賀バルーナーズ応援日記⛹️‍♂️</h1>
+        <div>
+            <button type="button" id="buton1" class="hiku" onclick="mainasuKati()">－</button>
+            <button type="button" id="buton2" class="hiku" onclick="mainasuMake()">－</button>
+            <button type="button" id="buton3" class="hiku" onclick="mainasuHiki()">－</button>
+        </div>
+        <h2 id="syouhai">０勝 ０敗 ０分</h2>
+        <div>
+            <button type="button" id="buton4" class="purasu" onclick="purasuKati()">勝ち</button>
+            <button type="button" id="buton5" class="purasu" onclick="purasuMake()">負け</button>
+            <button type="button" id="buton6" class="purasu" onclick="purasuHiki()">引き分け</button><br>
+            <div id="input">
+                <input type="text" id="msg" placeholder="例：　ホーム戦の結果　対戦相手：○○　戦績：○勝○敗">
+                <button type="button" id="buton7" onclick="input1()">記録</button>
+            </div>
+
+        </div>
+        <div class="kiroku" id="kiroku"></div>
+    </div>
+    <small>2501234　井手悠人</small>
+</body>
+
+</html>
